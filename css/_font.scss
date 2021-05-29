@@ -1,0 +1,38 @@
+/*fontfaces*/
+@font-face {
+    font-family: BellascriptA;
+    src: url(../fonts/BellascriptA.ttf);
+}
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url(../fonts/Montserrat-Medium.ttf);
+}
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: Montserrat-SemiBold;
+    src: url(../fonts/Montserrat-SemiBold.ttf);
+}
+
+$m-rg : Montserrat-Regular;
+$m-md :  Montserrat-Medium;
+$m-sb :  Montserrat-SemiBold;
+$s-f : BellascriptA;
+
+// COLORS
+$nav-color : #ecdad3;
+$font-color : #2b2928;
+$font-hober : #9b3b1b;
+$i-bg-color:#e1e1e1;
+$icon-color: #727272;
+$cof-color : #3c1c11;
+$ficoncolor : #f9d0a3;
+
+//all fonts
+
+$h1 : 5rem;
+$h2 : 4rem;
+$h3 : 3rem;
+$p : 1.6rem;
