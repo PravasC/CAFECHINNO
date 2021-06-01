@@ -678,4 +678,169 @@ header #header_slider #carouselExampleIndicators {
   color: #fff;
   font-size: 1.6rem;
 }
+
+@media (max-width: 1010px) {
+  #mapandtimesec #maincontentsec {
+    display: block;
+  }
+  #mapandtimesec #maincontentsec .imgsec {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 992px) {
+  #ourTeamMembers {
+    margin-bottom: 1300px;
+  }
+  #ourTeamMembers #mainimgsectionourteam #allcontentsection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .carousel-inner .carousel-item #first_slide .slider_content h1 {
+    font-family: BellascriptA;
+    font-size: 7rem;
+  }
+  .carousel-inner .carousel-item #first_slide .slider_content img {
+    width: 20rem;
+  }
+  .carousel-inner .carousel-item #secound_slide .content {
+    width: 100%;
+  }
+  .carousel-inner .carousel-item #secound_slide .content h1 {
+    font-size: 3rem;
+  }
+  .carousel-inner .carousel-item #third_slide .content {
+    width: 100%;
+    padding: 3rem;
+  }
+  .carousel-inner .carousel-item #third_slide .content h1 {
+    font-size: 3rem;
+  }
+  #social {
+    width: 100%;
+    height: 300px;
+    display: block;
+  }
+  #social #socialcontent {
+    width: 100%;
+  }
+  #social #socialicons {
+    width: 100%;
+  }
+  #social #socialicons ul li {
+    font-size: 3rem;
+  }
+  #exploreOurMenu #flextomenu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #GetInTouch {
+    width: 100%;
+    background-color: #fff;
+  }
+  #GetInTouch #mainallcontent {
+    display: block;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #GetInTouch #mainallcontent .section1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 100px;
+  }
+  #GetInTouch #mainallcontent .section2 {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #GetInTouch #mainallcontent .section2 #nameandemail {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #GetInTouch #mainallcontent .section2 #nameandemail input {
+    width: 45%;
+    height: 40px;
+    margin-bottom: 50px;
+  }
+  #GetInTouch #mainallcontent .section2 input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 50px;
+  }
+  #GetInTouch #mainallcontent .section2 textarea {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 50px;
+  }
+  #GetInTouch #mainallcontent .section2 #button {
+    text-align: center;
+  }
+}
+
+@media (max-width: 505px) {
+  #mapandtimesec #maincontentsec .imgsec2 #contentandmap iframe {
+    width: 30rem;
+    height: 30rem;
+    margin-bottom: 90px;
+  }
+}
+
+@media (max-width: 605px) {
+  .containermy {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+  #social #socialcontent {
+    padding-top: 50px;
+  }
+}
+
+@media (max-width: 437px) {
+  #exploreOurMenu #flextomenu ul li {
+    font-size: 1.8rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */

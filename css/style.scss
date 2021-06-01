@@ -32,6 +32,9 @@ p{
     padding-left: 15rem;
     padding-right: 15rem;
 }
+
+
+//header
 header{
     width: 100%;
     height: 100vh;
@@ -350,7 +353,7 @@ header{
 //Our Team Members Ends
 
 
-
+//Map and Times
 #mapandtimesec{
     width: 100%;
     position: relative;
@@ -408,6 +411,8 @@ header{
 
 }
 
+//Map and times
+//get in to touch
 #GetInTouch{
     width: 100%;
     background-color: #fff;
@@ -486,6 +491,10 @@ header{
     }
 }
 
+//Geti in touch
+
+//Footer
+
 #footer{
     padding-top: 100px;
     width: 100%;
@@ -540,3 +549,196 @@ header{
     }
     
 }
+
+
+
+@media (max-width: 1010px) { 
+    #mapandtimesec #maincontentsec{
+        display: block;
+
+        & .imgsec{
+            width: 100%;
+            margin-bottom: 30px;
+        }
+    }
+ }
+
+ @media (max-width: 992px) { 
+    #ourTeamMembers{
+        margin-bottom: 1300px;
+
+    }
+    #ourTeamMembers #mainimgsectionourteam #allcontentsection{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .carousel-inner{
+
+        & .carousel-item{
+            
+            & #first_slide{
+
+                & .slider_content{
+                    & h1{
+                        font-family: $s-f;
+                        font-size: 7rem;
+                    }
+                    & img{
+                        width: 20rem;
+                    }
+                }
+            }
+            & #secound_slide{
+                & .content{
+                    width: 100%;
+                    & h1{
+                        font-size: 3rem;
+                    }
+                }
+            }
+            & #third_slide{
+                & .content{
+                    width: 100%;
+                    padding: 3rem;
+    
+                    & h1{
+                        font-size: 3rem;
+                    }
+                }
+            }
+        }
+        
+    }
+
+    #social{
+        width: 100%;
+        height: 300px;
+        display: block;
+    
+        & #socialcontent {
+            width: 100%;
+        }
+    
+        & #socialicons{
+            width: 100%;
+            & ul li {
+                font-size: 3rem;
+            }
+        }
+    }
+    #exploreOurMenu{
+
+        & #flextomenu{
+            display: flex;
+            flex-direction: column;
+    
+        }
+    }
+
+    #GetInTouch{
+        width: 100%;
+        background-color: #fff;
+    
+        & #mainallcontent{
+            display: block;
+            justify-content: space-between;
+            & .section1{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                padding: 0;
+                margin-bottom: 100px;
+    
+            }
+            & .section2{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content:space-between;
+    
+                & #nameandemail{
+                    display: flex;
+                    justify-content: space-between;
+    
+                    input{
+                        width: 45%;
+                        height: 40px;
+                        margin-bottom: 50px;
+                    }
+                }
+                input{
+                    width: 100%;
+                    height: 40px;
+                    margin-bottom: 50px;
+                }
+                textarea{
+                    width: 100%;
+                    height: 200px;
+                    margin-bottom: 50px;
+                }
+                & #button{
+                    text-align: center;
+                }
+            }
+        }
+    }
+    
+ }
+
+
+
+ @media (max-width: 505px){
+    #mapandtimesec{
+    
+        & #maincontentsec{
+    
+            & .imgsec2{
+    
+                & #contentandmap{
+                    & iframe{
+                        width: 30rem;
+                        height: 30rem;
+                        margin-bottom: 90px;
+                    }
+                }
+            }
+        }
+    
+    
+    }
+    
+ }
+
+
+ @media (max-width: 605px){
+    .containermy {
+        padding-left: 0rem; 
+        padding-right: 0rem;
+    }
+    #social{
+    
+        & #socialcontent {
+            padding-top: 50px;
+        }
+    
+    }
+    
+ }
+ 
+ @media (max-width: 437px){
+    #exploreOurMenu{
+    
+        & #flextomenu{
+    
+            & ul li{
+                font-size: 1.8rem;
+            }
+    
+        }
+    }
+ }
